@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/vicinaehq/vicinae/refs/heads/main/extra/schemas/extension.json",
+  "name": "books",
+  "title": "Books",
+  "description": "Browse and open books from the Documents folder in your preferred reader",
+  "categories": ["System"],
+  "license": "MIT",
+  "platforms": ["Linux"],
+  "author": "sijan",
+  "contributors": [],
+  "pastContributors": [],
+  "icon": "extension_icon.png",
+  "commands": [
+    {
+      "name": "books",
+      "title": "Books",
+      "subtitle": "Browse your book library",
+      "description": "Show a grid of your books and open them in a reader",
+      "mode": "view"
+    }
+  ],
+  "preferences": [],
+  "scripts": {
+    "build": "vici build",
+    "dev": "vici develop",
+    "format": "biome format --write src",
+    "typecheck": "tsc --noEmit",
+    "lint": "vici lint"
+  },
+  "dependencies": {
+    "@vicinae/api": "^0.24.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@biomejs/biome": "2.3.2"
+  }
+}
