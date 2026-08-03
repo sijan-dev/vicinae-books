@@ -1,6 +1,6 @@
 # Books
 
-A Vicinae extension for displaying the docuents and books as a cover grid
+A [Vicinae](https://github.com/knoopx/vicinae-extensions) extension for displaying the docuents and books as a cover grid
 and opens the selected book in the appropriate reader.
 
 ## Requirements
