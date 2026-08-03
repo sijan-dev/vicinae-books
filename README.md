@@ -1,11 +1,11 @@
 # Books
 
-A Vicinae extension that shows the books in `~/Documents/Books` as a cover grid
+A Vicinae extension for displaying the docuents and books as a cover grid
 and opens the selected book in the appropriate reader.
 
 ## Requirements
 
-- Books stored in `~/Documents/Books` as EPUB (`.epub`, `.mobi`, `.azw3`) or
+- Books stored in local system as EPUB (`.epub`, `.mobi`, `.azw3`) or
   PDF/`.djvu` files.
 - [Foliate](https://github.com/johnfactotum/foliate) installed for EPUBs.
 - [Papers](https://apps.gnome.org/Papers/) (or `papers` on PATH) for PDFs.
